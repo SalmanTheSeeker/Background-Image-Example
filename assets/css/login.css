@@ -1,0 +1,61 @@
+*{
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+
+    height: 100vh;
+    background-color: rgb(15, 15, 33);
+    background-image: url(../imgs/galaxy-stars_2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.login{
+    width: 600px;
+    height: max-content;
+    background-color: rgba(240, 248, 255, 0.374);
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    border-radius: 10px;
+}
+
+h1{
+    color: white;
+    font-family: BebasNeue;
+    letter-spacing: 2px;
+}
+
+input{
+    width: 400px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 0px 10px 0px 10px;
+    font-family: "Kode Mono";
+    font-size: 20px;
+    border: 0px;
+
+
+}
+
+button{
+    width: 250px;
+    font-family: BebasNeue;
+    letter-spacing: 3px;
+    font-size: 40px;
+    color: white;
+    background-color: rgb(13, 3, 56);
+    padding: 5px 20px 0px 20px;
+    border-radius: 10px;
+}

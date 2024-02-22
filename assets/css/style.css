@@ -1,0 +1,51 @@
+body{
+
+    background-color: rgb(220, 235, 255);
+}
+
+h1{
+
+    text-align: center;
+    padding-top: 10px;
+    font-size:3svw;
+}
+
+.container{
+
+    background-color: rgb(165, 210, 250);
+    margin: 10px 20px 10px 20px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+.example1{
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(26, 24, 37);
+    margin: 10px 20px 10px 20px;
+    background-image: url(../imgs/galaxy-stars.png);
+}
+
+.example2{
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(26, 24, 37);
+    margin: 10px 20px 10px 20px;
+    background-image: url(../imgs/back.jpg);
+    background-attachment: fixed;
+    background-size:cover;
+    
+}
+.example3{
+    height: 300px;
+    border-radius: 10px;
+    background-color: rgb(26, 24, 37);
+    margin: 10px 20px 10px 20px;
+    background-image: url(../imgs/back.jpg);
+    background-size: auto 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
